@@ -33,8 +33,9 @@
     <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-<!-- android:largeHeap="true" -->
-    <application        
+    
+    <application
+        android:largeHeap="true"
         android:icon="@drawable/abt"
         android:label="@string/app_name" android:name="com.trinerva.icrm.model.MyApplication">
         

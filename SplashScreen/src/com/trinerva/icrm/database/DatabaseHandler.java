@@ -263,17 +263,17 @@ public class DatabaseHandler extends SQLiteOpenHelper {
 				+ TABLE_FL_CONFIG
 				+ " (CONFIG_TYPE, CONFIG_VALUE, CONFIG_TEXT, CREATED_TIMESTAMP, MODIFIED_TIMESTAMP)"
 				+
-				 "VALUES ('SYSTEM', 'http://www.firstlink.asia:2002/MobileService/crm.svc', 'CRM_SERVER_MOBILE', datetime('now'), datetime('now'));";
+//				 "VALUES ('SYSTEM', 'http://www.firstlink.asia:2002/MobileService/crm.svc', 'CRM_SERVER_MOBILE', datetime('now'), datetime('now'));";
 				// "VALUES ('SYSTEM', 'http://103.10.157.59:2001/MobileService/crm.svc', 'CRM_SERVER_MOBILE', datetime('now'), datetime('now'));";
-//				"VALUES ('SYSTEM', 'http://14.102.150.186:2001/MobileService/crm.svc', 'CRM_SERVER_MOBILE', datetime('now'), datetime('now'));";
+				"VALUES ('SYSTEM', 'http://14.102.150.186:2001/MobileService/crm.svc', 'CRM_SERVER_MOBILE', datetime('now'), datetime('now'));";
 
 		String strData6 = "INSERT INTO "
 				+ TABLE_FL_CONFIG
 				+ " (CONFIG_TYPE, CONFIG_VALUE, CONFIG_TEXT, CREATED_TIMESTAMP, MODIFIED_TIMESTAMP)"
 				+
-				 "VALUES ('SYSTEM', 'https://www.firstlink.asia/Login.aspx', 'CRM_SERVER_WEB', datetime('now'), datetime('now'));";
+//				 "VALUES ('SYSTEM', 'https://www.firstlink.asia/Login.aspx', 'CRM_SERVER_WEB', datetime('now'), datetime('now'));";
 				// "VALUES ('SYSTEM', 'http://103.10.157.59/login.aspx', 'CRM_SERVER_WEB', datetime('now'), datetime('now'));";
-//				"VALUES ('SYSTEM', 'http://14.102.150.186/Login.aspx', 'CRM_SERVER_WEB', datetime('now'), datetime('now'));";
+				"VALUES ('SYSTEM', 'http://14.102.150.186/Login.aspx', 'CRM_SERVER_WEB', datetime('now'), datetime('now'));";
 
 		String strData7 = "INSERT INTO "
 				+ TABLE_FL_CONFIG

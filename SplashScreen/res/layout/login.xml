@@ -160,7 +160,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_below="@+id/forgetPassword"
                 android:src="@android:drawable/ic_menu_info_details"
-                android:visibility="gone" />
+                android:visibility="visible" />
 
         </LinearLayout>
     </ScrollView>
