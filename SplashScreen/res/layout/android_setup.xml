@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_color"
+    android:paddingBottom="10dp" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp" >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_action_w_navigation_previous_item" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="10dp"
+            android:text="@string/android_setup"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFF" />
+    </RelativeLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_alignBottom="@+id/title"
+        android:background="#224680" />
+    <LinearLayout 
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:paddingLeft="10dp"
+	    android:paddingRight="10dp"
+	    android:paddingBottom="20dp"
+	    android:layout_below="@+id/title">
+        
+        <Button 
+		        android:id="@+id/import_contact"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/copyright"
+		        android:paddingTop="10dp"
+		        android:paddingBottom="10dp"
+		        android:background="@null"
+		        android:textColor="@color/textColor"
+		         android:textAppearance="?android:attr/textAppearanceLarge" 
+		        android:text="@string/import_android_address_book" />
+        
+              <Button 
+		        android:id="@+id/clear_calendar"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/copyright"
+		        android:paddingTop="10dp"
+		        android:paddingBottom="10dp"
+		        android:background="@null"
+		        android:textColor="@color/textColor"
+		         android:textAppearance="?android:attr/textAppearanceLarge" 
+		        android:text="@string/clear_android_calendar" />
+              
+                   <Button 
+		        android:id="@+id/reset_phone"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/copyright"
+		        android:paddingTop="10dp"
+		        android:paddingBottom="10dp"
+		        android:background="@null"
+		        android:textColor="@color/textColor"
+		         android:textAppearance="?android:attr/textAppearanceLarge" 
+		        android:text="@string/reset_android_phone" />
+        
+    </LinearLayout>
+</RelativeLayout>    

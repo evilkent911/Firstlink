@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_color"
+    android:paddingBottom="10dp" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp"
+       >
+
+         <TextView
+            android:id="@+id/target"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="10dp"
+            android:text="@string/passcode_lock"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFF" />
+         
+                 <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/target"
+        android:background="#224680" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/passcode_field"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_margin="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="@string/passcode_lock"
+            android:textColor="@color/textColor"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/passcode"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:digits="0123456789"
+            android:inputType="number|textPassword"
+            android:maxLength="4"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:password="true" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/unlock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passcode_field"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="15dp"
+        android:background="#00000000"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/unlock"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#EAF0F6" />
+
+    <Button
+        android:id="@+id/forgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/unlock"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="15dp"
+        android:background="#00000000"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/forgot_passcode"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#EAF0F6" />
+
+</RelativeLayout>

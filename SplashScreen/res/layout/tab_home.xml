@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff" >
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:background="@drawable/main_header">
+        <LinearLayout 
+            android:id="@+id/ll_sync"
+            android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_centerVertical="true"
+	        android:clickable="true"
+	        android:background="@drawable/blue_button"
+	        android:padding="8dp">
+        	<ImageView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/btn_sync_menu" />    
+        </LinearLayout>
+        
+         <LinearLayout 
+            android:id="@+id/ll_announcement"
+            android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:clickable="true"
+	        android:background="@drawable/blue_button"
+	        android:padding="8dp">
+	        <ImageView 
+	            android:id="@+id/announcement"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/btn_announcement" />
+		</LinearLayout>
+        
+	</RelativeLayout>
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        
+        <Button 
+	        android:id="@+id/contact"
+	        android:layout_width="289dp"
+	        android:layout_height="68dp"
+	        android:text="@string/contacts"
+	        android:textSize="23sp"
+	        android:textStyle="bold"
+	        android:textColor="#FFF"
+	        android:background="@drawable/btn_contacts" />
+        
+        <Button 
+	        android:id="@+id/lead"
+	        android:layout_width="289dp"
+	        android:layout_height="68dp"
+	        android:layout_marginTop="-13dp"
+	        android:text="@string/leads"
+	        android:textSize="23sp"
+	        android:textStyle="bold"
+	        android:textColor="#FFF"
+	        android:background="@drawable/btn_leads" />
+        
+        <Button 
+	        android:id="@+id/calendar"
+	        android:layout_width="289dp"
+	        android:layout_height="68dp"
+	        android:layout_marginTop="-13dp"
+	        android:text="@string/events"
+	        android:textSize="23sp"
+	        android:textStyle="bold"
+	        android:textColor="#FFF"
+	        android:background="@drawable/btn_events" />
+        
+        <Button 
+	        android:id="@+id/task"
+	        android:layout_width="289dp"
+	        android:layout_height="68dp"
+	        android:layout_marginTop="-13dp"
+	        android:text="@string/tasks"
+	        android:textSize="23sp"
+	        android:textStyle="bold"
+	        android:textColor="#FFF"
+	        android:background="@drawable/btn_tasks" />
+    </LinearLayout>
+    
+    
+    
+</RelativeLayout>

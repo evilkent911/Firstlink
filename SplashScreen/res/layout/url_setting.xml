@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFF">
+    
+	<RelativeLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingBottom="10dp">
+	    
+	    <LinearLayout
+	        android:id="@+id/title"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentTop="true"
+		    android:layout_marginBottom="10dp"
+		    android:background="@drawable/main_header"
+		    android:orientation="vertical" >
+			<TextView 
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_gravity="center"
+			    android:paddingTop="10dp"
+			    android:paddingBottom="10dp"
+			    android:textColor="#FFF"
+			    android:textSize="15sp"
+			    android:textStyle="bold"
+			    android:text="@string/url_setting" />
+		</LinearLayout>
+		 <ImageView 
+	        android:id="@+id/logo"
+	        android:layout_width="285dp"
+	        android:layout_height="66dp"
+	        android:layout_below="@+id/title"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginBottom="5dp"
+	        android:contentDescription="@string/app_name"
+	        android:src="@drawable/firstlink" />
+		<TextView
+		    android:id="@+id/tv_mobile"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="5dp"
+		    android:layout_marginTop="5dp"
+		    android:layout_below="@+id/logo"
+		    android:text="@string/mobile_server"
+		    android:textColor="#000" />
+		
+		<EditText 
+		    android:id="@+id/ed_mobile"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@+id/tv_mobile"
+		    android:layout_margin="5dp"
+		    android:inputType="textUri" />
+		
+		<TextView 
+		    android:id="@+id/tv_web"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@+id/ed_mobile"
+		    android:layout_marginLeft="5dp"
+		    android:textColor="#000"
+		    android:text="@string/web_server" />
+		
+		<EditText 
+		    android:id="@+id/ed_web"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@+id/tv_web"
+		    android:layout_margin="5dp"
+		    android:inputType="textUri" />
+	
+	</RelativeLayout>    
+</ScrollView>
+

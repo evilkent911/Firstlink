@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    android:orientation="vertical" >
+<ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+	<RelativeLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingBottom="10dp">
+	    
+	    <LinearLayout
+	        android:id="@+id/title"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentTop="true"
+		    android:layout_marginBottom="10dp"
+		    android:background="@drawable/main_header"
+		    android:orientation="vertical" >
+			<TextView 
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_gravity="center"
+			    android:paddingTop="10dp"
+			    android:paddingBottom="10dp"
+			    android:textColor="#FFF"
+			    android:textSize="15sp"
+			    android:textStyle="bold"
+			    android:text="@string/login" />
+		</LinearLayout>
+		
+	    <ImageView 
+	        android:id="@+id/logo"
+	        android:layout_width="285dp"
+	        android:layout_height="66dp"
+	        android:layout_below="@+id/title"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginBottom="5dp"
+	        android:contentDescription="@string/app_name"
+	        android:src="@drawable/firstlink" />
+	    
+	    <LinearLayout
+	        android:id="@+id/ll_email"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/logo"
+	        android:padding="5dp"
+	        android:gravity="center_vertical"
+	        android:orientation="horizontal">
+			
+	        <TextView
+		        android:layout_width="80dp"
+		        android:layout_height="wrap_content"
+		        android:layout_marginRight="5dp"
+		        android:textColor="#000"
+		        android:text="@string/email" />
+		
+		    <EditText
+		        android:id="@+id/ed_email"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="right"
+		        android:inputType="textEmailAddress"
+		        android:ems="10" />
+	    </LinearLayout>
+		
+	    <LinearLayout
+	        android:id="@+id/ll_password"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/ll_email"
+	        android:padding="5dp"
+	        android:gravity="center_vertical"
+	        android:orientation="horizontal">
+			
+	        <TextView
+		        android:layout_width="80dp"
+		        android:layout_height="wrap_content"
+		        android:layout_marginRight="5dp"
+		        android:textColor="#000"
+		        android:text="@string/password" />
+		
+		    <EditText
+		        android:id="@+id/ed_password"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="right"
+		        android:inputType="textPassword"
+		        android:ems="10" />
+	    </LinearLayout>
+	
+
+		<Button
+		    android:id="@+id/btn_login"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@+id/ll_password"
+		    android:layout_centerHorizontal="true"
+		    android:layout_marginBottom="5dp"
+		    android:layout_marginLeft="5dp"
+		    android:layout_marginRight="5dp"
+		    android:layout_marginTop="15dp"
+		    android:background="@drawable/yellow_button"
+		    android:paddingBottom="10dp"
+		    android:paddingTop="10dp"
+		    android:text="Login"
+		    android:textStyle="bold" />
+	
+		<Button
+		    android:id="@+id/forgetPassword"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@+id/btn_login"
+		    android:layout_centerHorizontal="true"
+		    android:layout_margin="5dp"
+		    android:paddingTop="10dp"
+		    android:paddingBottom="10dp"
+		    android:background="@drawable/yellow_button"
+		    android:textStyle="bold"
+		    android:text="Forget Password" />
+		
+	</RelativeLayout>    
+</ScrollView>
+
+    
+
+</LinearLayout>

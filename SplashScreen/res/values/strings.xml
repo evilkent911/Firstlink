@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FirstLink iCRM</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="loading_location">Locate your location in progress&#8230;</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="new_this_week">New This Week</string>
+    <string name="modified_this_week">Modified This Week</string>
+    <string name="my_contact">My Contacts</string>
+    <string name="my_lead">My Leads</string>
+    <string name="today_task">Today’s Task </string>
+    <string name="today_next_7_day">Today + Next 7 days</string>
+    <string name="overdue">Overdue</string>
+    <string name="mandatory">Mandatory</string>
+    <string name="all_day">All Day</string>
+    <string name="company">Company Name</string>
+    <string name="unsyn_text">Some data has been updated.Please press button above to sync the data between apps and web</string>
+    <string name="date">Date</string>
+    <string name="subject">Subject</string>
+      <string name="subject_and_location">Subject and Location</string>
+
+    <!-- agreement screen -->
+    <string name="login">Login</string>
+    <string name="activation">Activation</string>
+    <string name="activation_login">Activation Login</string>
+    <string name="url_setting">URL Settings</string>
+    <string name="edit">Edit</string>
+    <string name="end_user_agreement">Firstlink iCRM End User License Agreement:</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+    <string name="mode_selection">Mode Selection</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="cancel">Cancel</string>
+    <string name="back_to_exit">Please click BACK again to exit</string>
+    <string name="unsync_title">Synchronization Required</string>
+    <string name="unsync_desc">We notice you have some unsync info. Please sync.</string>
+    <string name="sync_now">Sync Now</string>
+    <string name="unlock">Unlock</string>
+    <string name="forgot_passcode">Forgot Passcode</string>
+    <string name="passcode_error">Passcode Error</string>
+    <string name="empty_passcode">Please enter passcode</string>
+    <string name="passcode_sent_title">Passcode Sent</string>
+    <string name="passcode_sent_desc">We have sent you the passcode to your email address</string>
+    <string name="passcode_not_match">Passcode not match. Please try again.</string>
+    <string name="agreement"><u>Agreement Terms</u>\nFirstlinkiCRM app is the mobile app of Firstlink CRM On- Demand, a service provides by FirstlinkSdnBhd, a private limited company registered in Malaysia (\"Firstlink\").\n\nBy clicking \'Accept\' and successfully authenticating and using the FirstlinkiCRM(the \"Service\"),You(\"You\" and \"Your\" refers to the individual or entity, and any Affiliates of such an entity) are deemed to agree to be bound by terms and conditions of this Agreement governing the use of the FirstlinkiCRM. If You are an authorised user  ofFirstlink CRM On-Demand services, the Firstlink CRM On Demand Subscription Agreement applies and is legally binding on You. For users who donot subscribe the service of Firstlink CRM On-Demand ,FirstlinkiCRM offers limited functionality under OFFLINE mode.
+For authorized Firstlink CRM On-Demand users,  FirstlinkiCRM allows  CRM data to be synchronized between FirstlinkiCRM app and Firstlink CRM Web Server. To enable the synchronization, please ensure your CRM system administrator has granted mobile license to Your login.\n\n1.Permission to access data in your mobile phone\nYou agreed and give permission allowing  FirstlinkiCRM app to access the following information in your Andriod phones :\na.address book (which will syn with Leads/ Contacts in FirstlinkiCRM)\nb.calendar (which will syn with event / task/ calendar in FirstlinkiCRM)\nc.location service (which will enable the Nearby search when FirstlinkiCRM is in ONLINE mode)\n\n2.Services available on ONLINE mode only\nYou acknowledge and understand the following services are available on ONLINE mode only\na.Nearby contacts/ leads search\nb.Announcement\nc.Passcode lock\nd.Data synchronization with Firstlink CRMWeb Server through internet\n\n3.Changing from OFFLINE Mode to ONLINE mode\nYou acknowledge, understand and agree all OFFLINE data will be replaced upon changing to ONLINE mode. OFFLINE mode will be removed upon changing to ONLINE mode.\n\n4.Ownership of Your Data and Data Protection\nFirstlink does not own any data input (in whatever form) made by You. You are solely responsible  for the Data, including, its accuracy, quality, integrity, reliability or completeness. To the extent the Firstlinkis given access to Your DataFirstlink will comply with its privacy and security policies.You are responsible for establishing and maintaining adequate security, virus protection and backup for any of the data residing on the FirstlinkiCRM.\n\n5.Performance\nFirstlink warrants that the Service will be performed in a professional and workmanlike manner by qualified personnel. Firstlink\'s  sole obligation and liability and Your sole and exclusive remedy for breach of this warranty shall be for Firstlink to reperform any Service brought to its attention within thirty (30) days after the Services are performed.\n\n6.Disclaimer.\nExcept as expressly set forth in this clause 5, the services is provided to You \"as is and as available\" basis and Firstlink hereby disclaim any other representations or warranties, express, implied, statutory, or otherwise, regarding the service, including without limitation any implied warranty of merchantability, title, performance, quality, non-infringement, fitness for a particular purpose, and any implied warranties arising from course of dealing or course of performance. the service may be subject to limitations, delays, and other problems inherent in the use of the internet and electronic communications. Firstlink is not responsible for any delays, delivery failures, or other damage resulting from such problems. Firstlink makes no warranty that the availability and functionality of the services, or access to the services via the internet, are or will be uninterrupted, timely, secure, or error free.\n\n7.Indemnification\nYou will defend Firstlink, its officers, directors, employees, suppliers, agents, and assigns against any claims, liabilities, losses, costs or damages, including lawyer\'s fees (\"Claim\"), related to or arising out of:\n(a)Your breach of any term, condition or warranty in this Agreement;\n(b)Your use or installation of any third party\'s software;\n(c)Your unauthorized use of any third party\'s proprietary or confidential intellectual property or information including, but not limited to, patents, copyrights, licensed material or trade secrets; or\n(d)Your use of the Firstlink Services in a manner that contravenes any applicable law or regulation including, but not limited to, Your unauthorized or improper use of any individual\'s personal information in contravention of any applicable privacy laws\n\n8.Limitation of Liability\nNEITHER PARTY WILL BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, PUNITIVE, OR CONSEQUENTIAL DAMAGES, OR ANY LOSS OF REVENUE OR PROFITS (EXCLUDING FEES UNDER THIS AGREEMENT), DATA, OR DATA USE.  FIRSTLINK\'S MAXIMUM LIABILITY FOR ANY DAMAGES ARISING OUT OF OR RELATED TO THIS AGREEMENT, WHETHER IN CONTRACT OR IN TORT, OR OTHERWISE, WILL IN NO EVENT EXCEED, IN THE AGGREGATE, THE TOTAL AMOUNTS ACTUALLY PAID TO FIRSTLINK IN THE TWELVE MONTH PERIOD IMMEDIATELY PRECEDING THE EVENT GIVING RISE TO SUCH CLAIM.\n\n9.Changes\nNotwithstanding anything else to the contrary in this Agreement, Firstlink reserves the right at any time not to release or to discontinue release of any Services , to change its then current list price for the Services and other Firstlink Services and to alter features, specifications, capabilities, functions, licensing terms, release dates, general availability or other characteristics of the Services and other Firstlink Services.\n\n10.Governing Law; Venue.\nThis Agreement is governed exclusively by the laws of Malaysia. The United Nations Convention on Contracts for the International Sale of Goods does not apply to this Agreement. You andFirstlinkirrevocably waive any right each may have to object to the venue of such courts. You and Firstlinkfurther agree that the Court of Malaya will have exclusive jurisdiction over any suit or action initiated by one Party against the other.</string>
+    <string name="last_modified_date">Last Modified Date: %s</string>
+    <string name="connection_error">Connection Error</string>
+    <string name="tnc">T&amp;C</string>
+    <string name="activate">Activate</string>
+
+    <!-- login screen -->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="mobile_server">Mobile Server</string>
+    <string name="web_server">Web Server</string>
+    <string name="login_online">Login</string>
+    <string name="email_error_title">Invalid Email</string>
+    <string name="email_error_msg">Please enter a valid email</string>
+    <string name="password_error_title">Invalid Password</string>
+    <string name="password_error_msg">Please enter a valid password</string>
+    <string name="mobileurl_error_title">Invalid Mobile Url</string>
+    <string name="mobileurl_error_msg">Please enter a mobile url</string>
+    <string name="weburl_error_title">Invalid Web Url</string>
+    <string name="weburl_error_msg">Please enter a web url</string>
+    <string name="ok">Ok</string>
+    <string name="login_fail_title">Login Failed</string>
+    <string name="login_fail_desc">Incorrect email/password combination</string>
+    <string name="login_confirmation_title">Login Info Confirmation</string>
+    <string name="login_confirmation_desc">Please confirm your login info\n\nEmail:-\n[EMAIL]\n\nI agreed to submit my login data to Firstlink CRM Server</string>
+    <string name="email_not_match_title">Email Error</string>
+    <string name="email_not_match_msg">The email provided is not matched</string>
+
+    <!-- CRM Login -->
+    <string name="crm_login">CRM Login</string>
+    <string name="connect_crm_server">Connect to CRM Server</string>
+    <string name="forgot_passwod">Forgotten CRM Password?</string>
+    <string name="answer_error_title">Invalid Answer</string>
+    <string name="answer_error_msg">Please enter a valid answer</string>
+    <string name="reset_password_successfully_title">Please refer to your mail box for your temporary password.</string>
+    <string name="reset_password_successfully">Reset password successfully, Please check your email.</string>
+
+    <!-- tab menu -->
+    <string name="home">Home</string>
+    <string name="nearby_places">Nearby Places</string>
+    <string name="reports">Reports</string>
+    <string name="settings">Settings</string>
+    <!-- home -->
+    <string name="contacts">Contacts</string>
+    <string name="leads">Leads</string>
+    <string name="calendar">Calendar</string>
+    <string name="events">Events</string>
+    <string name="tasks">Tasks</string>
+    <string name="help">Help</string>
+
+    <!-- Setting -->
+    <string name="sync_report">Sync CRM Report Now</string>
+    <string name="passcode_lock">Passcode Lock</string>
+    <string name="android_setup">Android Setup</string>
+    <string name="sales_enquiry_support">Sales Enquiry / Support</string>
+    <string name="about">About</string>
+    <string name="report_synchronization">Report Synchronization</string>
+    <string name="username">Username</string>
+    <string name="report_sync_note">Please enter CRM login info</string>
+    <string name="report_sync_report_date_note">Please select Report Sync date range</string>
+    <string name="today">Today</string>
+    <string name="this_week">This Week</string>
+    <string name="this_month">This Month</string>
+    <string name="custom">Custom</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="signout">Sign Out</string>
+    <string name="users">Users</string>
+
+    <!-- Synchronization -->
+    <string name="synchronization">Synchronization</string>
+    <string name="synchronization_status_success_title">FirstLink CRM Synchronization Status</string>
+    <string name="synchronization_status_success_desc">You had synchronized to CRM server successfully!</string>
+    <string name="synchronization_status_network_title">Connection Lost</string>
+    <string name="synchronization_status_network_desc">Please check your connection and try again</string>
+    <string name="synchronization_status_fail_title">Connection To Server Fail</string>
+    <string name="synchronization_status_fail_desc">Please try again later</string>
+    <string name="synchronization_status_sync_fail_title">FirstLink CRM Synchronization Error</string>
+    <string name="synchronization_status_sync_fail_desc">FirstLink CRM having some synchronization error</string>
+    <string name="synchronization_status_sync_authenticate_fail_title">FirstLink CRM Synchronization Error</string>
+    <string name="synchronization_status_sync_authenticate_fail_desc">Authenticate fail. Please check your login and try again</string>
+    <string name="synchronization_cancelled">Synchronization to CRM server is cancelled by user</string>
+    <string name="synchronization_invalid_report_date_title">Invalid Report Date</string>
+    <string name="synchronization_invalid_report_date_desc">Please enter a correct report date</string>
+    <string name="synchronization_status_sync_authenticate_fail_desc1">Your login attempt has failed. The username or password may be incorrect.Please contact the administrator at your company for help.</string>
+    <string name="synchronization_status_sync_authenticate_fail_desc2">Your mobile license has been reset.Please follow the steps below to activate your account:\n1) Click on reset button to reset the previous login information\n2) Contact your administrator to reset and reassign the new mobile license again\n3) Input your login information again to activate your account</string>
+    
+    <!-- Announcement -->
+    <string name="announcement">Announcement</string>
+    <string name="announcement_info">Announcement Info</string>
+    <string name="released_date">Released Date</string>
+    <string name="released_by">Released By</string>
+    <string name="announcement_subject">Subject</string>
+    <string name="announcement_content">Content</string>
+
+    <!-- contact info -->
+    <string name="contact_info">Contact Info</string>
+    <string name="required_information">Required Information</string>
+    <string name="required_mark">*</string>
+    <string name="prefix">Salutation</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="company_name">Account</string>
+    <string name="job_title">Job Title</string>
+    <string name="department">Department</string>
+    <string name="mobile">Mobile</string>
+    <string name="work_fax">Work Fax</string>
+    <string name="work_phone">Work Phone</string>
+    <string name="other_phone">Other Phone</string>
+    <string name="home_phone">Home Phone</string>
+    <string name="birthday">Birthday</string>
+    <string name="birthday_clear">Clear</string>
+    <string name="email2">Email 2</string>
+    <string name="email3">Email 3</string>
+    <string name="skype_id">Skype ID</string>
+    <string name="assistant_name">Assistant Name</string>
+    <string name="assistant_phone">Assistant Phone</string>
+    <string name="street">Street</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="zip">Zip</string>
+    <string name="country">Country</string>
+    <string name="description">Description</string>
+    <string name="basic">Basic</string>
+    <string name="others">Others</string>
+    <string name="save">Save</string>
+    <string name="last_name_is_required">Last Name is required</string>
+    <string name="company_name_is_required">Company name is required</string>
+    <string name="account_name_is_required">Account is required</string>
+    <string name="success_store_contact_title">CRM Record Storage Status</string>
+    <string name="success_store_contact_desc">Contact data is stored successfully</string>
+    <string name="fail_store_contact_title">CRM Record Storage Status</string>
+    <string name="fail_store_contact_desc">Contact data is fail to store</string>
+    <string name="phone_error_msg">Please enter a valid phone number (support number only)</string>
+    <string name="skype_error_msg">Please enter a valid Skype Id</string>
+    <string name="no_of_employee_error_msg">Please enter no. of employee correctly.</string>
+
+    <!-- contact list -->
+    <string name="contact_list">Contact List</string>
+    <string name="add_new">Add New</string>
+    <string name="search_hint">Contact Name, Account or Mobile Number</string>
+    <string name="lead_search_hint">Lead Name, Company Name or Mobile Number</string>
+     <string name="user_search_hint">User Name</string>
+    <string name="empty_contact_list">Empty contact list. Please add new</string>
+    <string name="empty_invitee">Empty invitee</string>
+    <string name="new_contact_creation">New Contact Creation</string>
+    <string name="import_contact_instruction">Do you want to import contact data from your Android Address Book?</string>
+    <string name="address_book">Address Book</string>
+    <string name="manual_entry">Manual Entry</string>
+
+    <!-- contact profile -->
+    <string name="delete">Delete</string>
+    <string name="contact_profile">Contact Profile</string>
+    <string name="call">Call</string>
+    <string name="sms">SMS</string>
+    <string name="opportunity_info">Opportunity Info</string>
+    <string name="activity_history">Activity History</string>
+    <string name="send_email_in">Send your email in:</string>
+    <string name="confirm_delete_contact">Are you sure to delete this contact profile?</string>
+    <string name="processing">Processing&#8230;</string>
+    <string name="photo_library">Pick at Library</string>
+    <string name="camera_shoot">Take Camera Shoot</string>
+
+    <!-- activity history -->
+    <string name="call_to_number">Called to [NUMBER]</string>
+    <string name="sms_to_number">SMS to [NUMBER]</string>
+    <string name="email_to_address">Email to [ADDRESS]</string>
+    <string name="delete_opportunity">Are you sure to delete this Opportunity</string>
+
+    <!-- opportunity list -->
+    <string name="rm">RM</string>
+    <string name="opportunity_list">Opportunity List</string>
+    <string name="empty_opportunity_list">No Opportunity Record Found</string>
+    <string name="my_opportunity_list">My Opportunity List</string>
+
+    <!-- opportunity info -->
+    <string name="name">Name</string>
+    <string name="amount">Amount</string>
+    <string name="close_date">Close Date</string>
+    <string name="stage">Stage</string>
+    <string name="stage_option_missing">Please run sync to get the stage list before continue.</string>
+    <string name="stage_is_required">Stage is required</string>
+    <string name="name_is_required">Name is required</string>
+    <string name="close_date_is_required">Close date is required</string>
+    <string name="amount_is_required">Amount is required</string>
+    <string name="fail_store_opportunity_title">CRM Record Storage Status</string>
+    <string name="fail_store_opportunity_desc">Opportunity data is fail to store</string>
+    <string name="success_store_opportunity_title">CRM Record Storage Status</string>
+    <string name="success_store_opportunity_desc">Opportunity data is stored successfully</string>
+    <string name="confirm_delete_opportunity">Are you sure you want to delete this opportunity info?</string>
+
+    <!-- lead list -->
+    <string name="lead_list">Lead List</string>
+    <string name="new_lead_creation">New Contact Creation</string>
+    <string name="import_lead_instruction">Do you want to import lead data from your Android Address Book?</string>
+    <string name="empty_lead_list">Empty lead list. Please add new</string>
+    <string name="delete_contact">Are you sure to delete this Contact</string>
+    <string name="confirm">Confirm</string>
+    <string name="delete_lead">Are you sure to delete this lead?</string>
+
+    <!-- lead info -->
+    <string name="lead_info">Lead Info</string>
+    <string name="industry">Industry</string>
+    <string name="lead_source">Lead Source</string>
+    <string name="lead_status">Lead Status</string>
+    <string name="attitude">Attitude</string>
+    <string name="no_of_employee">No Of Employee</string>
+    <string name="annual_revenue">Annual Revenue</string>
+    <string name="industry_is_required">Industry is required</string>
+    <string name="lead_source_is_required">Lead source is required</string>
+    <string name="lead_status_is_required">Lead status is required</string>
+    <string name="website">Website</string>
+    <string name="success_store_lead_title">CRM Record Storage Status</string>
+    <string name="success_store_lead_desc">Lead data is stored successfully</string>
+    <string name="fail_store_lead_title">CRM Record Storage Status</string>
+    <string name="fail_store_lead_desc">Contact data is fail to store</string>
+
+    <!-- lead profile -->
+    <string name="lead_profile">Lead Profile</string>
+    <string name="confirm_delete_lead">Are you sure to delete this lead profile?</string>
+
+    <!-- Event list -->
+    <string name="events_list">Events List</string>
+    <string name="event_search_hint">Events subject</string>
+    <string name="empty_event_list">Empty event list. Please add new</string>
+    <string name="unfortunately_firstlink__icrm_has_been_stopped">Unfortunately,Firstlink ICRM has been stopped</string>
+
+    <!-- event info -->
+    <string name="event_detail">Event Detail</string>
+    <string name="event_subject">Subject</string>
+    <string name="event_location">Location</string>
+    <string name="event_start_date">Start Date</string>
+    <string name="event_end_date">End Date</string>
+    <string name="event_alert">Alert</string>
+    <string name="event_all_day">All Day</string>
+    <string name="event_private">Private</string>
+    <string name="event_priority">Priority</string>
+    <string name="event_availability">Availability</string>
+    <string name="event_invitee">Invitee</string>
+    <string name="event_invitee_member_number">Invitee Member [[NUMBER]]</string>
+    <string name="event_email_notification">Email Notification</string>
+    <string name="event_description">Description</string>
+    <string name="event_off">OFF</string>
+    <string name="event_on">ON</string>
+    <string name="fail_store_event_title">CRM Record Storage Status</string>
+    <string name="fail_store_event_desc">Event data is fail to store</string>
+    <string name="success_store_event_title">CRM Record Storage Status</string>
+    <string name="success_store_event_desc">Event data is stored successfully.</string>
+    <string name="success_store_event_send_sms_desc">Event data is stored successfully.\nDo you want to send SMS notification from Android?</string>
+    <string name="event_sample_subject">Event Subject</string>
+    <string name="event_sample_location">Event Location</string>
+    <string name="sample_datetime">2000&#8211;08&#8211;31 09:00</string>
+    <string name="sample_email">abc@email.com</string>
+    <string name="subject_is_required">Subject is required</string>
+    <string name="start_date_is_required">Start date is required</string>
+    <string name="end_date_is_required">End date is required</string>
+    <string name="end_date_start_date_is_same">End date should after start date</string>
+    <string name="delete_event">Delete Event</string>
+    <string name="confirm_delete_event">Are you sure to delete this event?</string>
+    <string name="sms_event_created">FYI, I had created an event subject [SUBJECT] from [START_DATE] to [END_DATE].</string>
+    <string name="category">Category</string>
+
+    <!-- event invitee -->
+    <string name="event_invitee_title">Event Invitee</string>
+    <string name="event_invitees">Invitees</string>
+    <string name="done">Done</string>
+
+    <!-- task -->
+    <string name="name_to">Name To</string>
+    <string name="task_detail">Task Detail</string>
+    <string name="task_subject">Subject</string>
+    <string name="task_due_date">Due Date</string>
+    <string name="task_assigned_to">Assigned To</string>
+    <string name="task_priority">Priority</string>
+    <string name="task_availability">Availability</string>
+    <string name="task_private">Private</string>
+    <string name="task_alert">Alert</string>
+    <string name="task_server_email_notification">Server Email Notification</string>
+    <string name="task_description">Description</string>
+    <string name="task_off">OFF</string>
+    <string name="task_on">ON</string>
+    <string name="task_subject_is_required">Subject is required</string>
+    <string name="task_due_date_is_required">Due date is required</string>
+    <string name="task_assigned_to_is_required">Assigned to is required</string>
+    <string name="fail_store_task_title">CRM Record Storage Status</string>
+    <string name="fail_store_task_desc">Task data is fail to store</string>
+    <string name="success_store_task_title">CRM Record Storage Status</string>
+    <string name="success_store_task_desc">Task data is stored successfully.</string>
+    <string name="delete_task">Delete Task</string>
+    <string name="confirm_delete_task">Are you sure to delete this task?</string>
+
+    <!-- Task list -->
+    <string name="tasks_list">Tasks List</string>
+    <string name="task_search_hint">Task subject</string>
+    <string name="empty_task_list">Empty task list. Please add new</string>
+
+    <!-- location -->
+    <string name="turn_on_location_title">Turn on location</string>
+    <string name="turn_on_location_desc">FirstLink Nearby uses location services to find places nearby. To use the service turn on GPS and wireless networks in Location Settings.</string>
+    <string name="skip">Skip</string>
+    <string name="to05km">0 &#8211; 5 KM</string>
+    <string name="to510km">5 &#8211; 10 KM</string>
+    <string name="to1015km">10 &#8211; 15 KM</string>
+    <string name="to1520km">15 &#8211; 20 KM</string>
+    <string name="empty_nearby_list">No contact/lead is nearby</string>
+    <string name="km_away">[DISTANCE]km away [[TYPE]]</string>
+    <string name="details">Details</string>
+
+    <!-- report -->
+    <string name="activity_report">Activty Report</string>
+    <string name="opportunity_report">Opportunity Report</string>
+    <string name="summary">Summary</string>
+    <string name="individual">Individual</string>
+    <string name="activity_summary_title">Activity Report: Summary [[START_DATE] to [END_DATE]]</string>
+    <string name="activity_individual_title">Activity Report: Individual [[START_DATE] to [END_DATE]]</string>
+    <string name="opportunity_summary_title">Opportunity Report: Summary [[START_DATE] to [END_DATE]]</string>
+    <string name="opportunity_individual_title">Opportunity Report: Individual [[START_DATE] to [END_DATE]]</string>
+    <string name="empty_report">Empty report</string>
+
+    <!-- passcode lock -->
+    <string name="change_passcode_lock">Change Passcode Lock</string>
+    <string name="passcode_on">ON</string>
+    <string name="passcode_off">OFF</string>
+    <string name="new_passcode_lock">New Passcode Lock</string>
+    <string name="confirm_passcode_lock">Confirm Passcode Lock</string>
+    <string name="old_passcode_lock">Old Passcode Lock</string>
+    <string name="passcode_error_title">Passcode Error</string>
+    <string name="passcode_error_not_match">Confirm passcode not match</string>
+    <string name="passcode_error_not_empty">Invalid passcode</string>
+    <string name="passcode_error_old_passcode_not_match">Old Passcode not match</string>
+    <string name="passcode_success_title">Passcode Lock Creation</string>
+    <string name="passcode_success_desc">Passcode Lock was created successfully</string>
+
+    <!-- setting -->
+    <string name="sales_selection">Select your perfered method to reach us.</string>
+    <string name="sales_enquiry">Sales Enquiry</string>
+    <string name="support">Support</string>
+    <string name="import_android_address_book">Import Android Address Book as CRM Contacts/Leads</string>
+    <string name="clear_android_calendar">Clear CRM Events &amp; Tasks from Android calendar</string>
+    <string name="clear_android_calendar_desc">Are you sure to clear CRM Event &amp; Task data from your Android calendar?</string>
+    <string name="reset_android_phone">Reset Android CRM Data</string>
+    <string name="reset_android_phone_desc">Are you sure to reset ALL CRM data of your Android?</string>
+    <string name="reset_android_phone_status">CRM Data Reset Status</string>
+    <string name="reset_android_phone_status_desc">ALL CRM Data is reset from your Android. Please perform your login again.</string>
+    <string name="import_text">Import</string>
+    <string name="select_all">Select All</string>
+    <string name="contact">Contact</string>
+    <string name="lead">Leads</string>
+    <string name="success_store_batch_title">CRM Record Storage Status</string>
+    <string name="success_store_batch_contact_desc">Batch Contact data is stored successfully</string>
+    <string name="success_store_batch_lead_desc">Batch Lead data is stored successfully</string>
+    <string name="fail_store_batch_contact_title">CRM Record Storage Status</string>
+    <string name="fail_store_batch_contact_desc">Contact data is fail to store</string>
+    <string name="fail_store_batch_lead_desc">Lead data is fail to store</string>
+    <string name="empty_qualify_contact">Empty Address Book Contact that have Last Name and Account</string>
+    <string name="about_us">Copyright &#169; 2007&#8211;2014.\nFirstlink Sdn. Bhd.\nAll right reserved.</string>
+    <string name="first_link_icrm">Firstlink iCRM</string>
+    <string name="version">Version [VERSION_CODE]</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="sign_out_confirmation">Sign-out Confirmation</string>
+    <string name="synchronization_message">Synchronization Message</string>
+
+    <!-- Login -->
+    <string name="login_info_confirmation">Login Info Confirmation</string>
+    <string name="login_info_confirmation_message">Please confirm your login info\n\nEmail: %s\n\nI agreed to submit my login data to Firstlink CRM Server</string>
+
+    <!-- forgot password -->
+    <string name="forgot_password">Forgot Password</string>
+    <string name="security_question">Security Question</string>
+    <string name="security_answer">Security Answer</string>
+    <string name="password_reset_confirmation">Password Reset Confirmation</string>
+    <string name="password_reset_successfully">Please refer to your mail box for your temporary password.</string>
+    <string name="task_and_events">Tasks and Events</string>
+    <string name="create">Create %s</string>
+    <string name="selected">Selected (%s)</string>
+    <string name="companylist">Account List</string>
+    <string name="show">Show Task</string>
+
+    <string-array name="string_task_filter">
+        <item>SMS</item>
+        <item>Call</item>
+        <item>Email</item>
+    </string-array>
+    <string-array name="string_array_name">
+        <item>Address Book</item>
+        <item>Manual Entry</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="task_kind_array_name">
+        <item>Task</item>
+        <item>Call</item>
+        <item>Send Quotation</item>
+        <item>Fax</item>
+        <item>Follow Up</item>
+        <item>SMS</item>
+        <item>Email</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="string_array_select">
+        <item>Events</item>
+        <item>Tasks</item>
+    </string-array>
+
+</resources>

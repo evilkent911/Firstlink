@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/background_color">
+	
+     <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp" >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_action_w_navigation_previous_item" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="10dp"
+            android:text="@string/about"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFF" />
+    </RelativeLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_alignBottom="@+id/title"
+        android:background="#224680" />
+      
+    <ScrollView 
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+        android:layout_below="@+id/title"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="8dp">
+        <RelativeLayout 
+            android:layout_width="match_parent"
+	    	android:layout_height="match_parent">
+	    	<TextView 
+	    	    android:id="@+id/title1"
+	            android:layout_width="match_parent"
+	        	android:layout_height="wrap_content"
+	        	android:gravity="center_horizontal"
+	            android:text="@string/first_link_icrm"
+	            android:layout_marginBottom="10dp"
+	            android:textColor="@color/textColor" />
+	    	<TextView 
+	    	    android:id="@+id/version"
+	            android:layout_width="match_parent"
+	        	android:layout_height="wrap_content"
+	        	android:layout_below="@+id/title1"
+	        	android:gravity="center_horizontal"
+	            android:text="@string/version"
+	            android:layout_marginBottom="10dp"
+	            android:textColor="@color/textColor" />
+	    	<ImageView 
+	    	    android:id="@+id/icon"
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:layout_below="@+id/version"
+	        	android:layout_centerHorizontal="true"
+	        	android:src="@drawable/abt"
+	        	android:layout_marginBottom="10dp"
+	        	android:scaleType="fitXY" />
+            <TextView 
+                android:id="@+id/copyright"
+	            android:layout_width="match_parent"
+	        	android:layout_height="wrap_content"
+	        	android:gravity="center_horizontal"
+	        	android:layout_below="@+id/icon"
+	            android:text="@string/about_us"
+	            android:layout_marginBottom="10dp"
+	            android:textColor="@color/textColor" />
+            <Button 
+		        android:id="@+id/sales"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/copyright"
+		        android:paddingTop="10dp"
+		        android:paddingBottom="10dp"
+		        android:background="@null"
+		        android:textColor="@color/textColor"
+		         android:textAppearance="?android:attr/textAppearanceLarge" 
+		        android:text="@string/contact_us" />
+        </RelativeLayout>
+       
+    </ScrollView>
+</RelativeLayout>

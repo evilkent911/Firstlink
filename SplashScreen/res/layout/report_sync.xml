@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFF">
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/main_header" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_alignParentLeft="true"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:text="@string/report_synchronization"
+            android:textColor="#FFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title">
+        <RelativeLayout
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content">
+            
+            <TextView 
+				android:id="@+id/tv_note"
+		       	android:layout_width="fill_parent"
+		       	android:layout_height="wrap_content"
+		       	android:textStyle="italic"
+		       	android:text="@string/report_sync_note" />
+		    
+		   	<LinearLayout
+		        android:id="@+id/ll_username"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/tv_note"
+		        android:padding="5dp"
+		        android:gravity="center_vertical"
+		        android:orientation="horizontal">
+				
+		        <TextView
+			        android:layout_width="80dp"
+			        android:layout_height="wrap_content"
+			        android:layout_marginRight="5dp"
+			        android:textColor="#000"
+			        android:text="@string/username" />
+			
+			    <TextView
+			        android:id="@+id/username"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="right"
+			        android:gravity="center_vertical"
+			        android:textColor="#000"
+			        android:background="@android:drawable/edit_text" />
+		    </LinearLayout>
+			
+		    <LinearLayout
+		        android:id="@+id/ll_password"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/ll_username"
+		        android:padding="5dp"
+		        android:gravity="center_vertical"
+		        android:orientation="horizontal">
+				
+		        <TextView
+			        android:layout_width="80dp"
+			        android:layout_height="wrap_content"
+			        android:layout_marginRight="5dp"
+			        android:textColor="#000"
+			        android:text="@string/password" />
+			
+			    <EditText
+			        android:id="@+id/ed_password"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="right"
+			        android:inputType="textPassword"
+			        android:ems="10" />
+		    </LinearLayout>
+			    
+		    <TextView 
+				android:id="@+id/report_date_note"
+		       	android:layout_width="fill_parent"
+		       	android:layout_height="wrap_content"
+		       	android:layout_below="@+id/ll_password"
+		       	android:textStyle="italic"
+		       	android:text="@string/report_sync_report_date_note" />
+		    
+		    <LinearLayout
+		        android:id="@+id/ll_report_date_range"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/report_date_note"
+		        android:padding="5dp"
+		        android:orientation="horizontal">
+			    <TextView 
+			        android:id="@+id/today"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_weight="1"
+			        android:clickable="true"
+			        android:background="@drawable/blue_menu_selected_left"
+			        android:text="@string/today"
+			        android:textColor="#FFF" />
+			   	<TextView 
+			        android:id="@+id/this_week"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_weight="1"
+			        android:clickable="true"
+			        android:background="@drawable/blue_menu_middle"
+			        android:text="@string/this_week"
+			        android:textColor="#FFF" />
+			   	<TextView 
+			        android:id="@+id/this_month"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_weight="1"
+			        android:clickable="true"
+			        android:background="@drawable/blue_menu_middle"
+			        android:text="@string/this_month"
+			        android:textColor="#FFF" />
+			   	<TextView 
+			        android:id="@+id/custom"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_weight="1"
+			        android:clickable="true"
+			        android:background="@drawable/blue_menu_right"
+			        android:text="@string/custom"
+			        android:textColor="#FFF" />
+			</LinearLayout>
+			
+		    <LinearLayout
+		        android:id="@+id/ll_start"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/ll_report_date_range"
+		        android:padding="5dp"
+		        android:gravity="center_vertical"
+		        android:orientation="horizontal">
+				
+		        <TextView
+			        android:layout_width="80dp"
+			        android:layout_height="wrap_content"
+			        android:layout_marginRight="5dp"
+			        android:textColor="#000"
+			        android:text="@string/start_date" />
+			
+			    <EditText
+			        android:id="@+id/ed_start_date"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="right"
+			        android:inputType="date"
+			        android:textColor="#000"
+			        android:ems="10" />
+		    </LinearLayout>
+		    
+		    <LinearLayout
+		        android:id="@+id/ll_end"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/ll_start"
+		        android:padding="5dp"
+		        android:gravity="center_vertical"
+		        android:orientation="horizontal">
+				
+		        <TextView
+			        android:layout_width="80dp"
+			        android:layout_height="wrap_content"
+			        android:layout_marginRight="5dp"
+			        android:textColor="#000"
+			        android:text="@string/end_date" />
+			
+			    <EditText
+			        android:id="@+id/ed_end_date"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="right"
+			        android:inputType="date"
+			        android:textColor="#000"
+			        android:ems="10" />
+		    </LinearLayout>
+		    
+		    <Button 
+		        android:id="@+id/connect"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/ll_end"
+		        android:layout_margin="10dp"
+		        android:paddingTop="10dp"
+		        android:paddingBottom="10dp"
+		        android:background="@drawable/yellow_button"
+		        android:textStyle="bold"
+		        android:text="@string/connect_crm_server" />
+		    
+		    <Button 
+		        android:id="@+id/forgot"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/connect"
+		        android:layout_marginTop="10dp"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginRight="10dp"
+		        android:paddingTop="10dp"
+		        android:paddingBottom="10dp"
+		        android:background="@drawable/yellow_button"
+		        android:textStyle="bold"
+		        android:text="@string/forgot_passwod" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

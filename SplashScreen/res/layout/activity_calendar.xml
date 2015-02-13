@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+              <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                  android:background="@drawable/main_header"
+                >
+
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_launcher" />
+
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="Calander"
+                android:textColor="#FFF"
+                android:textSize="15sp"
+                android:layout_centerInParent="true"
+                android:textStyle="bold" />
+
+            </RelativeLayout>
+            
+
+ <!--    <TabHost
+        android:id="@+id/tabHostId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ff0000" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EEEEEE" >
+
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_launcher" />
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_toLeftOf="@+id/add"
+                    android:layout_toRightOf="@+id/back"
+                    android:background="#ff00ff" >
+                </TabWidget>
+
+                <ImageView
+                    android:id="@+id/add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:paddingRight="10dip"
+                    android:src="@drawable/ic_action_content_new" />
+            </RelativeLayout>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffff00" >
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="#FFF" >
+
+                        <EditText
+                            android:id="@+id/search"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/title"
+                            android:drawableLeft="@drawable/ic_btn_search"
+                            android:hint="@string/event_search_hint"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/empty_event_list"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/search"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:padding="12dp"
+                            android:text="@string/empty_event_list"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:visibility="gone" />
+
+                        <ListView
+                            android:id="@+id/list"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_below="@+id/empty_event_list"
+                            android:footerDividersEnabled="true" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff" >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffffff" >
+
+                        <ListView
+                            android:id="@+id/dayList"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_above="@+id/dayToolsBar" />
+
+                        <LinearLayout
+                            android:id="@+id/dayToolsBar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:background="#eeeeee"
+                            android:orientation="horizontal" >
+
+                            <Button
+                                android:id="@+id/dayButton1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:gravity="center" />
+
+                            <Button
+                                android:id="@+id/dayButton2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:gravity="center" />
+
+                            <Button
+                                android:id="@+id/dayButton3"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:background="#328eee"
+                                android:gravity="center"
+                                android:textColor="#ffffff" />
+
+                            <Button
+                                android:id="@+id/dayButton4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:gravity="center" />
+
+                            <Button
+                                android:id="@+id/dayButton5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:gravity="center" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffffff" >
+
+                        <ListView
+                            android:id="@+id/weekList"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_above="@+id/toolsBar" />
+
+                        <LinearLayout
+                            android:id="@+id/toolsBar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:visibility="gone"
+                            android:background="#eeeeee"
+                            android:orientation="horizontal" >
+
+                            <Button
+                                android:id="@+id/button1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:gravity="center" />
+
+                            <Button
+                                android:id="@+id/button2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:gravity="center" />
+
+                            <Button
+                                android:id="@+id/button3"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:background="#328eee"
+                                android:gravity="center"
+                                android:textColor="#ffffff" />
+
+                            <Button
+                                android:id="@+id/button4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:gravity="center" />
+
+                            <Button
+                                android:id="@+id/button5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:gravity="center" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:id="@+id/relativeLayout1"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dip"
+                        android:background="#EDE8DD"
+                        android:visibility="gone" >
+
+                        <TextView
+                            android:id="@+id/Top_Date"
+                            android:layout_width="150dip"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center_horizontal|center"
+                            android:textColor="#424139"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/btn_pre_month"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="30dp" />
+
+                        <Button
+                            android:id="@+id/btn_next_month"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="30dp" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/monthLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffffff" >
+
+                        <ListView
+                            android:id="@+id/monthList"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_above="@+id/hideCalendar" />
+
+                        <Button
+                            android:id="@+id/hideCalendar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" 
+                            android:layout_above="@+id/monthToolsBar"/>
+
+                        <LinearLayout
+                            android:id="@+id/monthToolsBar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:background="#eeeeee"
+                            android:orientation="horizontal" >
+
+                            <Button
+                                android:id="@+id/monthButton1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:gravity="center" />
+
+                            <Button
+                                android:id="@+id/monthButton2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:gravity="center" />
+
+                            <Button
+                                android:id="@+id/monthButton3"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:background="#328eee"
+                                android:gravity="center"
+                                android:textColor="#ffffff" />
+
+                            <Button
+                                android:id="@+id/monthButton4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:gravity="center" />
+
+                            <Button
+                                android:id="@+id/monthButton5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:gravity="center" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost> -->
+
+    <LinearLayout
+                    android:id="@+id/tab4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:id="@+id/relativeLayout1"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dip"
+                        android:background="#EDE8DD"
+                        android:visibility="gone" >
+
+                        <TextView
+                            android:id="@+id/Top_Date"
+                            android:layout_width="150dip"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center_horizontal|center"
+                            android:textColor="#424139"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/btn_pre_month"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="30dp" />
+
+                        <Button
+                            android:id="@+id/btn_next_month"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="30dp" />
+                    </RelativeLayout>
+           
+              
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffffff" >
+
+                        <ListView
+                            android:id="@+id/monthList"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_above="@+id/hideCalendar" />
+
+                        <Button
+                            android:id="@+id/hideCalendar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" 
+                            android:layout_above="@+id/monthToolsBar"/>
+
+                        <LinearLayout
+                            android:id="@+id/monthToolsBar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:background="#eeeeee"
+                            android:orientation="horizontal" >
+
+                            <Button
+                                android:id="@+id/monthButton1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:gravity="center" />
+
+                            <Button
+                                android:id="@+id/monthButton2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:gravity="center" />
+
+                            <Button
+                                android:id="@+id/monthButton3"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:background="#328eee"
+                                android:gravity="center"
+                                android:textColor="#ffffff" />
+
+                            <Button
+                                android:id="@+id/monthButton4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:gravity="center" />
+
+                            <Button
+                                android:id="@+id/monthButton5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:gravity="center" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+</LinearLayout>

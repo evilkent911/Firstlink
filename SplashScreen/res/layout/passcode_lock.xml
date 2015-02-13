@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_color"
+    android:paddingBottom="10dp" >
+
+     <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp" >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_action_w_navigation_previous_item" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="10dp"
+            android:text="@string/passcode_lock"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFF" />
+    </RelativeLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_alignBottom="@+id/title"
+        android:background="#224680" />
+      
+
+    <TextView
+        android:id="@+id/passcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/title"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:text="@string/passcode_lock"
+        android:textColor="#FFF"
+        android:textSize="15sp" />
+
+    <ToggleButton
+        android:id="@+id/lock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:textOn="@string/passcode_on"
+        android:textOff="@string/passcode_off"
+        android:text="@string/passcode_off"
+        android:checked="false" />
+    
+    <Button 
+        android:id="@+id/change_passcode"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lock"
+        android:layout_marginTop="15dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/yellow_button"
+        android:textStyle="bold"
+        android:text="@string/change_passcode_lock"
+        android:visibility="gone" />
+
+</RelativeLayout>    

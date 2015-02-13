@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+encoding//src/com/trinerva/icrm/SynchronizationData.java=UTF-8
+encoding//src/com/trinerva/icrm/calendar/CalendarActivity.java=UTF-8
+encoding//src/com/trinerva/icrm/calendar/MonthAdapter.java=UTF-8
+encoding//src/com/trinerva/icrm/contacts/CompanyList.java=UTF-8
+encoding//src/com/trinerva/icrm/contacts/ContactInfoBesiaFragment.java=UTF-8
+encoding//src/com/trinerva/icrm/contacts/ContactList.java=UTF-8
+encoding//src/com/trinerva/icrm/contacts/OpportunityList.java=UTF-8
+encoding//src/com/trinerva/icrm/event/EventList.java=UTF-8
+encoding//src/com/trinerva/icrm/event/EventListActivity.java=UTF-8
+encoding//src/com/trinerva/icrm/event/WeekActivity.java=UTF-8
+encoding//src/com/trinerva/icrm/event/WeekAdapter.java=UTF-8
+encoding//src/com/trinerva/icrm/leads/LeadList.java=UTF-8
+encoding//src/com/trinerva/icrm/tasks/TaskList.java=UTF-8
+encoding//src/com/trinerva/icrm/utility/SoapUtility.java=UTF-8

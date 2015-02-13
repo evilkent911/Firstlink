@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popmenu"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_color" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#00000000"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/ic_icon_menu" />
+
+        <TextView
+            android:id="@+id/target"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="10dp"
+            android:text="@string/companylist"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFF" />
+
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/add_new"
+            android:background="#FFF"
+            android:visibility="gone" />
+        
+        <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/target"
+        android:background="#224680" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="20dip"
+        android:background="#00000000"
+        android:drawableLeft="@drawable/ic_btn_search"
+        android:drawablePadding="5dip"
+        android:hint="@string/search_hint"
+        android:padding="5dip"
+        android:singleLine="true"
+        android:textColor="#ffffff"
+        android:textColorHint="#A6ABBE"
+        android:textSize="10dip" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_below="@+id/search"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:background="#8998B9" />
+
+    <TextView
+        android:id="@+id/empty_contact_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="@string/empty_contact_list"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+    
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/synNow"
+        android:layout_below="@+id/create"
+        android:divider="#8498B9"
+        android:dividerHeight="1dip"
+        android:footerDividersEnabled="true" />
+
+    <Button
+        android:id="@+id/create"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:visibility="gone"
+        android:layout_below="@+id/search"
+        android:text="Create" />
+
+</RelativeLayout>

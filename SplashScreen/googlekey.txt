@@ -1,0 +1,14 @@
+keytool -list -alias androiddebugkey -keystore C:\Users\user\.android\debug.keystore -storepass android -keypass android 
+
+
+5A:FB:F2:EB:08:82:CB:F3:17:F9:45:BD:79:2F:94:B1
+
+0WnPCZ65mo-Lh4LqFDJ6JacBKmrwu2zwmYfkhcw
+
+
+
+keytool -list -alias "firstlink asia" -keystore C:\vhosts\android\FirstLink\firstlinkasia_keystore -storepass firstlink -keypass firstlink 
+
+AC:3C:C8:CA:47:B8:5C:E4:4D:DD:98:2D:93:4E:DA:6C
+
+0WnPCZ65mo-InYv7CelQU-c2VVTH7XR5hs5aF6A

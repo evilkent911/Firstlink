@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="asia.firstlink.icrm"
+    android:versionCode="4"
+    android:versionName="1.0.3" >
+
+     <uses-feature
+          android:glEsVersion="0x00020000"
+          android:required="true"/>
+    
+    <permission
+          android:name="com.example.maptest.permission.MAPS_RECEIVE"
+          android:protectionLevel="signature"/>
+     
+    <uses-permission android:name="com.example.maptest.permission.MAPS_RECEIVE"/>
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    
+    
+    <uses-sdk android:minSdkVersion="10" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+<!-- android:largeHeap="true" -->
+    <application        
+        android:icon="@drawable/abt"
+        android:label="@string/app_name" android:name="com.trinerva.icrm.model.MyApplication">
+        
+        <uses-library android:required="true" android:name="com.google.android.maps" />
+        
+        <activity
+            android:name="com.trinerva.icrm.Agreement"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <action android:name="android.intent.action.VIEW" />
+            <!-- intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter -->
+        </activity>
+        
+               <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAN95U0W7GX67tnJeAvUq9iiCdABM2koEE"/>
+               
+               <meta-data
+        android:name="com.google.android.gms.version"
+        android:value="@integer/google_play_services_version" />
+               
+               
+        <activity
+            android:name="com.trinerva.icrm.Login"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="stateAlwaysHidden">
+            <action android:name="android.intent.action.VIEW" />
+        </activity>
+        
+        <activity
+            android:name="com.trinerva.icrm.CrmLogin"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="stateAlwaysHidden">
+            <action android:name="android.intent.action.VIEW" />
+        </activity>
+        
+        <activity
+            android:name="com.trinerva.icrm.TabsFragmentActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <action android:name="android.intent.action.VIEW" />
+            <!-- intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter-->
+        </activity>
+        
+        <activity
+            android:name="com.trinerva.icrm.Announcement"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <action android:name="android.intent.action.VIEW" />
+        </activity>
+        
+        <activity
+            android:name="com.trinerva.icrm.AnnouncementInfo"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <action android:name="android.intent.action.VIEW" />
+        </activity>
+        
+        <activity
+            android:name="com.trinerva.icrm.SynchronizationData"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <action android:name="android.intent.action.VIEW" />
+        </activity>
+        
+        <activity
+            android:name="com.trinerva.icrm.contacts.ContactInfo"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"  
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <action android:name="android.intent.action.VIEW" />
+        </activity>
+        
+        <activity
+            android:name="com.trinerva.icrm.contacts.ContactList"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden">
+            <action android:name="android.intent.action.VIEW" />
+        </activity>
+        
+        <activity
+            android:name="com.trinerva.icrm.contacts.ContactProfile"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <action android:name="android.intent.action.VIEW" />
+        </activity>
+        
+        <activity
+            android:name="com.trinerva.icrm.contacts.ActivityHistory"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <action android:name="android.intent.action.VIEW" />
+        </activity>
+        
+        <activity
+            android:name="com.trinerva.icrm.contacts.OpportunityList"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <action android:name="android.intent.action.VIEW" />
+        </activity>
+        
+        <activity
+            android:name="com.trinerva.icrm.contacts.OpportunityInfo"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="stateAlwaysHidden">
+            <action android:name="android.intent.action.VIEW" />
+        </activity>
+        
+        <activity
+            android:name="com.trinerva.icrm.contacts.OpportunityDisplay"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <action android:name="android.intent.action.VIEW" />
+        </activity>
+        
+        <activity
+            android:name="com.trinerva.icrm.leads.LeadList"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden">
+            <action android:name="android.intent.action.VIEW" />
+        </activity>
+        
+        <activity
+            android:name="com.trinerva.icrm.leads.LeadInfo"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="stateAlwaysHidden">
+            <action android:name="android.intent.action.VIEW" />
+        </activity>
+        
+        <activity
+            android:name="com.trinerva.icrm.leads.LeadProfile"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <action android:name="android.intent.action.VIEW" />
+        </activity>
+        
+        <activity
+            android:name="com.trinerva.icrm.event.EventList"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+			android:windowSoftInputMode="stateHidden">
+            <action android:name="android.intent.action.VIEW" />
+        </activity>
+        
+        <activity
+            android:name="com.trinerva.icrm.event.EventInfo"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="stateAlwaysHidden">
+            <action android:name="android.intent.action.VIEW" />
+        </activity>
+        
+        <activity
+            android:name="com.trinerva.icrm.event.EventInvitee"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden">
+            <action android:name="android.intent.action.VIEW" />
+        </activity>
+        
+        <activity
+            android:name="com.trinerva.icrm.tasks.TaskInfo"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden">
+            <action android:name="android.intent.action.VIEW" />
+        </activity>
+        
+        <activity
+            android:name="com.trinerva.icrm.tasks.TaskList"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+			android:windowSoftInputMode="stateHidden">
+            <action android:name="android.intent.action.VIEW" />
+        </activity>
+        
+        <activity
+            android:name="com.trinerva.icrm.nearby.NearbyDetail"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <action android:name="android.intent.action.VIEW" />
+        </activity>
+        
+        <activity
+            android:name="com.trinerva.icrm.settings.ReportSync"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden">
+            <action android:name="android.intent.action.VIEW" />
+        </activity>
+        
+        <activity
+            android:name="com.trinerva.icrm.settings.About"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden">
+            <action android:name="android.intent.action.VIEW" />
+        </activity>
+        
+        <activity
+            android:name="com.trinerva.icrm.settings.PasscodeLock"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden">
+            <action android:name="android.intent.action.VIEW" />
+        </activity>
+        
+        <activity
+            android:name="com.trinerva.icrm.settings.NewPasscodeLock"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden">
+            <action android:name="android.intent.action.VIEW" />
+        </activity>
+        
+        <activity
+            android:name="com.trinerva.icrm.settings.AndroidSetup"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden">
+            <action android:name="android.intent.action.VIEW" />
+        </activity>
+        
+        <activity
+            android:name="com.trinerva.icrm.settings.ImportContact"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden">
+            <action android:name="android.intent.action.VIEW" />
+        </activity>
+        
+        <activity
+            android:name="com.trinerva.icrm.reports.Individual"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden">
+            <action android:name="android.intent.action.VIEW" />
+        </activity>
+        
+        <activity
+            android:name="com.trinerva.icrm.ForgotPassword"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden">
+            <action android:name="android.intent.action.VIEW" />
+        </activity>
+        
+        <activity
+            android:name="com.trinerva.icrm.Lock"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden">
+            <action android:name="android.intent.action.VIEW" />
+        </activity>
+        
+        <activity
+            android:name="com.trinerva.icrm.UrlSetting"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden">
+            <action android:name="android.intent.action.VIEW" />
+        </activity>
+                <activity
+            android:name="net.sf.andpdf.pdfviewer.PdfViewerActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden">
+            <action android:name="android.intent.action.VIEW" />
+        </activity>
+        <activity
+            android:name="com.trinerva.icrm.event.InvitedList"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden">
+            <action android:name="android.intent.action.VIEW" />
+        </activity>
+        
+        <activity
+            android:name="com.trinerva.icrm.SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden">
+            <action android:name="android.intent.action.VIEW" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="org.achartengine.GraphicalActivity" />
+        <activity android:name="com.trinerva.icrm.HomeMenuActivity" android:screenOrientation="portrait" android:launchMode="singleTask"></activity>
+        <activity android:name="com.trinerva.icrm.SettingActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.trinerva.icrm.NearbyActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.trinerva.icrm.contacts.ContactInfoTab" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar" android:windowSoftInputMode="stateAlwaysHidden"></activity>
+        <activity android:screenOrientation="portrait" android:name="com.trinerva.icrm.calendar.CalendarActivity" android:theme="@android:style/Theme.Black.NoTitleBar"></activity>
+        <activity android:name="com.trinerva.icrm.calendar.DayActivity"></activity>
+        <activity android:name="com.trinerva.icrm.event.WeekActivity"></activity>
+        <activity android:name="com.trinerva.icrm.event.EventListActivity"></activity>
+        <activity android:name="com.trinerva.icrm.tasks.MonthActivity"></activity>
+        <activity android:name="com.trinerva.icrm.calendar.CalendarEventActivity"></activity>
+        <activity android:name="com.trinerva.icrm.event.MonthEventActivity"></activity>
+        <activity android:name="com.trinerva.icrm.tasks.TaskListActivity"></activity>
+        <activity android:name="com.trinerva.icrm.LoginActivity" android:screenOrientation="portrait"  android:theme="@android:style/Theme.Black.NoTitleBar" android:windowSoftInputMode="stateAlwaysHidden"></activity>
+        <activity android:name="com.trinerva.icrm.forgetpassword.ForgetPasswordActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar" android:windowSoftInputMode="stateAlwaysHidden"></activity>
+        <activity android:name="com.trinerva.icrm.forgetpassword.PasswordResetSuccess" android:theme="@android:style/Theme.Light.NoTitleBar" android:screenOrientation="portrait"></activity>
+        <activity android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden" android:name="com.trinerva.icrm.contacts.CreateContactInfoTab" android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity android:name="com.trinerva.icrm.ForgotPasswordDialogActivity"   android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="stateAlwaysHidden"></activity>
+        <activity android:name="com.trinerva.icrm.contacts.ContactFilterListActivity" android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity android:name="com.trinerva.icrm.contacts.CompanyList" android:screenOrientation="portrait"  android:windowSoftInputMode="stateAlwaysHidden" android:theme="@android:style/Theme.Black.NoTitleBar" ></activity>
+        <activity android:name="com.trinerva.icrm.event.NameToList" android:theme="@android:style/Theme.Black.NoTitleBar" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden"></activity>
+        <activity android:name="com.trinerva.icrm.ViewPdf" android:theme="@android:style/Theme.Black.NoTitleBar" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden"></activity>
+        <activity android:screenOrientation="portrait" android:name="com.trinerva.icrm.MyWebView"></activity>
+        <activity android:name="com.trinerva.icrm.HelpActivity" android:screenOrientation="portrait"></activity>
+    </application>
+</manifest>
